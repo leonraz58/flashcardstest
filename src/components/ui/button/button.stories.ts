@@ -33,19 +33,31 @@ export const Secondary: Story = {
   },
 }
 
+export const PrimaryLink: Story = {
+  args: {
+    as: 'a',
+    children: 'Link that looks like a button',
+    disabled: false,
+    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    variant: 'primary',
+  },
+}
+
+export const SecondaryLink: Story = {
+  args: {
+    as: 'a',
+    children: 'Link that looks like a button',
+    disabled: false,
+    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    variant: 'secondary',
+  },
+}
+
 export const FullWidth: Story = {
   args: {
     children: 'Full Width Primary Button',
     disabled: false,
     fullWidth: true,
-    variant: 'primary',
-  },
-}
-
-export const AsLink: Story = {
-  args: {
-    as: 'a',
-    children: 'Link that looks like a button',
     variant: 'primary',
   },
 }
